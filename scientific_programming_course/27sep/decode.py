@@ -26,7 +26,7 @@ def decode(message):
     for letter in morse_letters:
        english.append(morse_to_letter[letter])
 
-# Rejoin, but now we don't need to add any spaces
+    # Rejoin, but now we don't need to add any spaces
     english_message = "".join(english)
 
     return english_message
