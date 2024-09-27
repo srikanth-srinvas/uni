@@ -20,12 +20,14 @@ english = []
 
 # Now we cannot read by letter. We know that morse letters are
 # separated by a space, so we split the morse string by spaces
-morse_letters = message.split(" ")
+def decode(message):
+    morse_letters = message.split(" ")
 
-for letter in morse_letters:
-    english.append(morse_to_letter[letter])
+    for letter in morse_letters:
+       english.append(morse_to_letter[letter])
 
 # Rejoin, but now we don't need to add any spaces
-english_message = "".join(english)
+    english_message = "".join(english)
 
-print(english_message)
+    return english_message
+print(decode(message))
