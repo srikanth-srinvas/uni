@@ -62,3 +62,5 @@ string.split()
 
 list = ["a", "b", "c"]
 "-".join(list) # join list function
+
+## exercise
