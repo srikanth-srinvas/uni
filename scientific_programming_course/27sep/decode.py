@@ -31,3 +31,13 @@ def decode(message):
 
     return english_message
 print(decode(message))
+
+
+## new script ##
+from morse import morse
+
+message = "... . -.-. .-. . - / -- . ... ... .- --. ."
+
+decoded_message = morse.decode(message)
+
+print(decoded_message)

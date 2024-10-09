@@ -1,0 +1,3 @@
+5 sequences that not start with "M"
+5 sequences with internal stop codon
+1 which didn't have a methionine in the original file

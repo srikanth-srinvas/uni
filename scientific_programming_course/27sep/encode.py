@@ -7,8 +7,13 @@ letter_to_morse = {
     '5':'.....', '6':'-....', '7':'--...', '8':'---..','9':'----.', ' ':'/'
 }
 
+def encode(message):  # Add a value error that states ! is not  valid charecter
+    if "!" in message:
+        raise ValueError (f"'!' is not a valid cahrecter")
+
 morse = []
 input_string = "SOS We have hit an iceberg and need help quickly"
+
 
 for letter in input_string:
     letter = letter.lower() # call this function to convert the uppercase letters to lowercase

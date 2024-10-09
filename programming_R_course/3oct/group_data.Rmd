@@ -1,0 +1,68 @@
+---
+title: "Group Data Analysis"
+author: "Srikanth"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Group Data in R
+
+This document will demonstrate how to create and manipulate data using vectors, logical vectors, and data frames in R.
+
+## Step 1: Create Height and Age Vectors
+
+We start by creating the `height` and `age` vectors.
+
+```{r}
+# Height and Age Data
+height <- c(178, 188, 186, 171, 194, 190)  # height in cm
+age <- c(26, 23, 21, 23, 22, 23)           # age in years
+
+# Check the length of the height vector
+length(height)
+
+# Get the 2nd and 3rd values of the height vector
+height[c(2, 3)]
+# Character Vectors
+first_name <- c("Kaya", "Srikanth", "Will", "Jake", "Edward", "Milo")
+last_name <- c("Kupajova", "Srinivas", 'Storr', "Mulrooney", "Godfrey", "Friedrich")
+sex <- c("Female", "Male", "Male", "Male", "Male", "Male")
+country_of_birth <- c("Slovakia", "India", "England", "England", "England", "England")
+city_of_birth <- c("Svidnik", "Bangalore", "Exeter", "Burnley", "Bristol", "Bristol")
+# Logical Vector for Playing Cricket
+played_cricket <- c(FALSE, TRUE, TRUE, FALSE, TRUE, FALSE)
+# Create the Data Frame
+group_data <- data.frame(
+  first_name,
+  last_name,
+  age,
+  height,
+  sex,
+  country_of_birth,
+  city_of_birth
+)
+
+# View the Data Frame
+group_data
+# Add the Cricket Player Column
+group_data$cricket_player <- played_cricket
+
+# View the Updated Data Frame
+group_data
+
+group_data$first_name # extract the first names from the data frame
+
+mean(group_data$age) # mean group age 
+
+group_data$height / group_data$age # average height growth per year
+
+# column to add average height growth of a person 
+group_data$mean_growth <- group_data$height / group_data$age
+
+group_data
+
+# logical vector to sort people shorter than 170cm
+group_data$height < 170
+
+group_data$first_name[group_data$height < 180]
+```

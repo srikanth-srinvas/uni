@@ -1,0 +1,64 @@
+---
+title: "My R markdown file"
+author: "Srikanth"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Text formatting
+
+This is an example of how to use basic **text formatting** in R Markdown.
+
+*italic*  or _italic_  
+**bold**   or __bold__  
+`code`  
+superscript^2^ and subscript~2~
+
+# Headings
+
+## 1st Level Header
+
+### 2nd Level Header
+
+#### 3rd Level Header
+
+# Lists
+
+-   Bulleted list item 1
+-   Item 2
+    - Item 2a
+    - Item 2b
+
+1.  Numbered list item 1
+2.  Item 2 (numbers will increment automatically)
+
+# Links and images
+
+[Example link](http://example.com)
+
+![This is Ronaldo](ronaldo-fart.gif)
+
+# Tables
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+]   
+# Basic R Code Example
+
+Below is a basic example of R code embedded in your R Markdown document:
+
+```{r}
+# This is a simple R code chunk
+# Generate 10 random numbers between 0 and 100
+random_numbers <- sample(0:100, 10, replace = TRUE)
+random_numbers
+
+# Calculate the mean of these random numbers
+mean(random_numbers)
+```
+# Below is an example of adding a line of python code into this R md file
+```{python}
+print("this is python")
+```

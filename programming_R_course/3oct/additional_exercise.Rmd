@@ -1,0 +1,88 @@
+---
+title: "Data Frame Exercises"
+author: "Srikanth Srinivas"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Data Frame Creation and Challenges
+
+In this document, we will create a data frame with five columns and perform various operations on the data.
+
+## Step 1: Install and Load Required Packages
+
+To begin, we need to install and load the necessary packages. (I have installed them already, so they're commented out.)
+
+```{r, eval=FALSE}
+# install.packages("randomNames")
+# install.packages("wakefield")
+```
+```{r}
+library(randomNames) # For generating random names
+library(wakefield)   # For generating random ages and sexes
+```
+##Step 2: Create the Data Frame
+Now, we will generate the data and create the data frame with 5 columns: First_Name, Last_Name, Age, Sex, and Test_Score.
+```{r}
+# Generate random names
+first_names <- randomNames(40, which.names = "first")
+last_names <- randomNames(40, which.names = "last")
+
+# Generate ages between 14 and 56 using sample
+ages <- sample(14:56, 40, replace = TRUE)
+
+# Generate sexes
+sexes <- sex_inclusive(40)
+
+# Generate test scores between 0 and 100
+test_scores <- sample(0:100, 40, replace = TRUE)
+
+# Combine into a data frame
+student_data <- data.frame(
+  First_Name = first_names,
+  Last_Name = last_names,
+  Age = ages,
+  Sex = sexes,
+  Test_Score = test_scores
+)
+
+# View the first few rows of the data frame
+head(student_data)
+```
+#Step 4: Challenge 2 - Summarizing Data
+Now, we will calculate the mean and standard deviation of the test scores for each sex.
+```{r}
+# Calculate mean and standard deviation of scores for each sex
+summary_stats <- aggregate(Test_Score ~ Sex, data = student_data, 
+                            FUN = function(x) c(mean = mean(x), sd = sd(x)))
+
+# Convert to data frame for better readability
+summary_stats_df <- do.call(data.frame, summary_stats)
+
+# View the summary statistics
+summary_stats_df
+```
+#Step 5: Challenge 3 - Adding Logical Vectors
+Next, we will add a new column called "Pass," which is TRUE if the score is greater than or equal to 70, and FALSE otherwise.
+```{r}
+# Add "Pass" column
+student_data$Pass <- student_data$Test_Score >= 70
+
+# Calculate the percentage of students who passed
+pass_percentage <- mean(student_data$Pass) * 100
+
+# Display the percentage of students who passed
+pass_percentage
+```
+#Step 6: Challenge 4 - Multi Filtering
+Finally, we will filter the data frame to select only rows where Age is between 25 and 40, Sex is female, and Score is more than 80.
+```{r}
+# Multi-filter the data frame
+filtered_data <- student_data[student_data$Age > 25 & student_data$Age < 40 & 
+                              student_data$Sex == "Female" & 
+                              student_data$Test_Score > 80, ]
+
+# View the filtered data
+filtered_data
+```
+
