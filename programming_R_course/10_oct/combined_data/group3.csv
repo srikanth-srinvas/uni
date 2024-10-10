@@ -1,0 +1,6 @@
+first_name,last_name,age,height,sex,country_of_birth,city_of_birth,played_cricket
+Omar,Shalim,22,183.5,Male,England,Dorchester,TRUE
+Lucy,Byers,22,158,Female,England,Newcastle_Upon_Tyne,TRUE
+Phoebe,Worley,27,163,Female,Isle_of_Man,Douglas,FALSE
+Dhanashri,Kalyan,22,160,Female,India,Chennai,FALSE
+Ankitha,Thyagavajan,21,163,Female,India,Chennai,FALSE

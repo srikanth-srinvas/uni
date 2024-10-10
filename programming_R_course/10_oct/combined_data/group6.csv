@@ -1,0 +1,9 @@
+first_name,last_name,age,height,sex,country_of_birth,city_of_birth,played_cricket
+Mansi,Chandra,22,168,F,Karnataka,Mysore,TRUE
+Salloni,Surve,21,163,F,Maharashtra,Mumbai,TRUE
+Shivani,Shiavni,24,164,F,Karnataka,Udupi,TRUE
+Reeva,Shahid,22,158,F,J&K,Srinagar,FALSE
+Petal,Dsouza,22,163,F,Oman,Muscat,FALSE
+Shruthikka,Aravindan,26,165,F,UK,Nottingham,FALSE
+Tamara,Fragua,23,163,F,Netherlands,Leiden,FALSE
+Safa,Bushnaa,30,175,F,Saudi Arabia,Jeddah,FALSE
