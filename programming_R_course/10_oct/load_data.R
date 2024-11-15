@@ -16,6 +16,7 @@ files
 all_group_data <- vroom(files, id="~/data/uni/programming_R_course/10_oct/combined_data/")
 all_group_data
 print(n=50, all_group_data)
+vroom_write(all_group_data, "~/data/uni/programming_R_course/17oct/all_group_data.csv")
 
 
 # load tidyverse 

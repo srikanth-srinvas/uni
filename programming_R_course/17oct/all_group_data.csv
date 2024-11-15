@@ -1,0 +1,36 @@
+~/data/uni/programming_R_course/10_oct/combined_data/	first_name	last_name	age	height	sex	country_of_birth	city_of_birth	played_cricket
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group1.csv	Claudia	Cuellar	27	160	Female	Mexico	Mexico	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group1.csv	Maddie	Lews	21	157	Female	Wales	Cardiff	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group1.csv	Lisa	Dwiananda	21	150	Female	Indonesia	Jakarta	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group1.csv	Adriana	Salazar	24	156	Female	Mexico	Mexico	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Yuqi	Cao	22	155	Female	Scotland	Glasgow	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Gloria	Amor	21	155	Female	Spain	Almeria	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Hasini	De Silva	21	152	Female	Sri Lanka	Colombo	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Elizabeth	Swainston	21	170	Female	England	Brighton	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Samia	Ahmed	23	157	Female	Bangladesh	Sylhet	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group2.csv	Shreya	Shrestha	21	154	Female	UK	London	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group3.csv	Omar	Shalim	22	183.5	Male	England	Dorchester	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group3.csv	Lucy	Byers	22	158	Female	England	Newcastle_Upon_Tyne	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group3.csv	Phoebe	Worley	27	163	Female	Isle_of_Man	Douglas	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group3.csv	Dhanashri	Kalyan	22	160	Female	India	Chennai	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group3.csv	Ankitha	Thyagavajan	21	163	Female	India	Chennai	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Lewis	Low Wood	21	178	Male	UK	Croydon	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Xiaowan	Zhou	21	160	Female	CN	Shenyang	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Guanhua	Hu	22	180	Male	CN	Shandong	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Joanne	Zhang	22	161	Female	CN	Taiyuan	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Yulong	Wu	24	170	Male	CN	Quanzhou	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group4.csv	Himath	Perera	22	167	Male	UK	Cambridge	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Kaya	Kupajova	26	178	Female	Slovakia	Svidnit	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Srikanth	Srinivas	23	188	Male	India	Bangalore	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Will	Storr	21	186	Male	England	Exter	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Jake	Mulrooney	23	171	Male	England	Burnley	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Edward	Godfrey	22	194	Male	England	Bristol	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group5.csv	Milo	Friedrich	23	190	Male	England	Bristol	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Mansi	Chandra	22	168	Female	Karnataka	Mysore	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Salloni	Surve	21	163	Female	Maharashtra	Mumbai	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Shivani	Shiavni	24	164	Female	Karnataka	Udupi	TRUE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Reeva	Shahid	22	158	Female	J&K	Srinagar	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Petal	Dsouza	22	163	Female	Oman	Muscat	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Shruthikka	Aravindan	26	165	Female	UK	Nottingham	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Tamara	Fragua	23	163	Female	Netherlands	Leiden	FALSE
+/Users/srikanth/data/uni/programming_R_course/10_oct/combined_data/group6.csv	Safa	Bushnaa	30	175	Female	Saudi Arabia	Jeddah	FALSE

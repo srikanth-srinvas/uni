@@ -1,0 +1,18 @@
+---
+title: "Comparing groups"
+author: "Srikanth"
+date: "17th October 2024"
+output: html_document
+---
+
+```{r setup}
+# Use ggplot to check if the group data is normally distributed
+ggplot(all_group_data, aes(x = height)) +
+  ##tell it we want ao histogram, and to colour the histogram by the different groups
+  geom_histogram(aes(fill=sex)) +
+  ##make it on two different facets
+  facet_wrap(~ sex) +
+  ##set the theme to a simple background
+  theme_bw() +
+  ##tidy up by surpressing the legend
+  theme(legend.position = "none")
